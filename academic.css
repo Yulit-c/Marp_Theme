@@ -159,28 +159,3 @@ img[alt~="center"] {
 code {
   font-family: 'Source Code Pro', monospace;
 }
-
-
-section.split {
-    display: table;
-    width: 100%;
-  }
-  section.split-item {
-    display: table-cell;
-    padding: 0px;
-    width: 60%;
-  }
-  section.split-left {
-    position: relative;
-  }
-  section.split-left__inner {
-    height: 100%;
-    position: fixed;
-    width: 50%;
-  }
-  section.split-right {
-    position: relative;
-  }
-  section.split-right__inner {
-    height: 420px;
-  }
