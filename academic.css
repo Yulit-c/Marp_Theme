@@ -161,31 +161,31 @@ code {
 }
 
 
-.split {
+split {
     display: table;
     width: 100%;
   }
 
-.split-item {
+split-item {
 display: table-cell;
 padding: 0px;
 width: 60%;
 }
 
-.split-left {
+split-left {
 position: relative;
 }
 
-.split-left__inner {
+split-left__inner {
 height: 100%;
 position: fixed;
 width: 50%;
 }
 
-.split-right {
+split-right {
 position: relative;
 }
 
-.split-right__inner {
+split-right__inner {
 height: 420px;
 }
