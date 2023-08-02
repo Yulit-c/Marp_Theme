@@ -161,26 +161,26 @@ code {
 }
 
 
-.split {
+section.split {
     display: table;
     width: 100%;
   }
-  .split-item {
+  section.split-item {
     display: table-cell;
     padding: 0px;
     width: 60%;
   }
-  .split-left {
+  section.split-left {
     position: relative;
   }
-  .split-left__inner {
+  section.split-left__inner {
     height: 100%;
     position: fixed;
     width: 50%;
   }
-  .split-right {
+  section.split-right {
     position: relative;
   }
-  .split-right__inner {
+  section.split-right__inner {
     height: 420px;
   }
