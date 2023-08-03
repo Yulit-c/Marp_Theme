@@ -19,6 +19,14 @@ section {
   padding-right: 40px;
 }
 
+section h1 {
+    font-size: 72px;
+}
+
+section h4 {
+    font-size: 32px;
+}
+
 /* https://github.com/marp-team/marpit/issues/271 */
 section::after {
   font-weight: 700;
@@ -91,13 +99,13 @@ section.center p {
     padding:200px 0;
 }
 
-/* section.with_image {
-    font-family: 'FixedSys';
-} */
+section.with_image {
+    font-family: 'メイリオ';
+}
 
 section.with_image h1 {
     color: #ffffff;
-    font-family: 'メイリオ';
+    /* font-family: 'メイリオ'; */
     font-size: 76px;
     text-align:center;
     padding:400px 0;
