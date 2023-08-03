@@ -91,13 +91,17 @@ section.center p {
     padding:200px 0;
 }
 
+/* section.with_image {
+    font-family: 'FixedSys';
+} */
 
 section.with_image h1 {
     color: #ffffff;
-    font-size: 96px;
+    font-family: 'メイリオ';
+    font-size: 76px;
     text-align:center;
     padding:400px 0;
-    -webkit-text-stroke: 7px #860d1f;
+    -webkit-text-stroke: 3px #860d1f;
 }
 
 section.with_image h2 {
@@ -122,10 +126,29 @@ section.specific h1 {
 
 }
 
+html,body {
+  height: 100%;
+}
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+.left-box {
+  left: 0;
+}
+.right-box {
+  right: 0;
+  overflow-y: scroll;
+}
+
+
+
 
 header {
   background-color: #800000;
   color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
   font-size: 1em;
   font-weight: 700;
 }
@@ -133,6 +156,7 @@ header {
 footer {
     background-color: #ad7171;
     color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 0.9em;
     font-weight: 700;
   }
