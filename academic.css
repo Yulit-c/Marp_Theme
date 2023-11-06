@@ -20,7 +20,7 @@ section {
 }
 
 section h1 {
-    font-size: 72px;
+    font-size: 64px;
     -webkit-text-stroke: 2px #8d4c4c;
 }
 section h2 {
@@ -92,7 +92,7 @@ section.lead p {
 section.center h1 {
     font-size: 72px;
     text-align:center;
-    padding:200px 0;
+    padding:100px 0;
 }
 
 section.center h2 {
