@@ -54,6 +54,7 @@ section.lead h1 {
   font-weight: 700;
 }
 section.lead h1 strong {
+    font-size: 64px;
   -webkit-text-stroke: 2px #fff;
 }
 section.lead h2 {
